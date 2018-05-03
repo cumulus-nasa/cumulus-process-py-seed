@@ -1,1 +1,2 @@
 cumulus-process==0.5.7
+git+git://github.com/cumulus-nasa/cumulus-message-adapter-python.git@0.1.0
