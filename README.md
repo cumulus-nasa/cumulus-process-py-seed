@@ -64,7 +64,7 @@ A complete list of member functions that you can use within the process class is
 
 #### 3. Update requirements files and MANIFEST.in
 
-The requirements.txt file already includes the reference to cumulus-process. The requirements-dev.txt file contains requirements needed for development and testing, for now it just includes the *coverage* package for testing test code coverage. Update the requirements files to include your own Python requirements needed.
+The requirements.txt file already includes the reference to cumulus-process and the cumulus-message-adapter-python library. The requirements-dev.txt file contains requirements needed for development and testing, for now it just includes the *coverage* package for testing test code coverage. Update the requirements files to include your own Python requirements needed.
 
 The MANIFEST.in file specifies files, other than Python source files, in the project directory that should be included in the deploy. Python files are included automatically, but other scripts, executables, small data or config files, etc. should be specified in the MANIFEST file. For more info see the [Python packaging tutorial](https://packaging.python.org/tutorials/distributing-packages/#manifest-in).
 
